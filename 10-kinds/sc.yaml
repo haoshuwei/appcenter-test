@@ -1,6 +1,7 @@
 allowVolumeExpansion: true
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
+metadata:
   name: nginx
 parameters:
   type: available
